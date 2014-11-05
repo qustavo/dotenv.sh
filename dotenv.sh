@@ -16,6 +16,10 @@ cd()
 	}
 
 	builtin cd $@
+	ERR=$?
+
+	if [ $ERR -ne 0 ]; then; return $ERR; fi
+
 	if [ -e .env ]; then
 		loadenv .env
 	fi
