@@ -7,7 +7,7 @@ case "${unameOut}" in
     Darwin*)    dotenv_machine=Mac;;
     CYGWIN*)    dotenv_machine=Cygwin;;
     MINGW*)     dotenv_machine=MinGw;;
-    *)          dotenv_machine="UNKNOWN:${dotenv_machine_uname}"
+    *)          dotenv_machine="${dotenv_machine_uname}"
 esac
 
 cd()
