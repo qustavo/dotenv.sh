@@ -4,7 +4,7 @@
  
 ## Installation
 ```sh
-$ wget https://raw.githubusercontent.com/gchaincl/dotenv.sh/master/dotenv.sh -O ~/.dotenv.sh
+$ wget https://raw.githubusercontent.com/digitalist/dotenv.sh/master/dotenv.sh
 ```
 Add the following to your `.bashrc`, `.zshrc` or `.<whatever>rc`:
 ```sh
